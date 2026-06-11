@@ -1,153 +1,142 @@
-🌾 AgriSenseAI – Smart AI-Powered Farming Assistant
-Overview
-AgriSenseAI is an Artificial Intelligence-powered agriculture assistant designed to help farmers identify crop diseases and receive intelligent farming recommendations. The system uses deep learning and AI models to analyze crop images and provide actionable insights for better crop management.
+# 🌾 AgriSense AI
 
-Features
-🌿 Crop Disease Detection using AI
-📷 Image-based Plant Health Analysis
-🤖 AI-powered Farming Recommendations
-🌐 User-Friendly Interface
-📱 Mobile-Friendly Design
-🌍 Multilingual Support
-📊 Smart Agricultural Insights
-Problem Statement
-Farmers often face challenges in identifying crop diseases at an early stage, leading to reduced productivity and financial losses. AgriSenseAI aims to provide a fast, accessible, and intelligent solution for disease detection and crop management.
+## AI-Powered Smart Agriculture Platform
 
-Technology Stack
-Frontend
-Gradio
-Backend
-Python
-Artificial Intelligence
-TensorFlow / Keras
-Deep Learning Models
-OpenRouter API
-GPT-based AI Models
-Libraries Used
-NumPy
-Pillow
-Matplotlib
-TensorFlow
-Gradio
-Project Structure
-AgriSenseAI/ │ ├── app.py ├── train_model.py ├── requirements.txt ├── model/ │ └── crop_disease_model.h5 ├── images/ └── README.md
+AgriSense AI is an intelligent agriculture assistance platform that helps farmers identify crop diseases, receive fertilizer recommendations, and obtain weather-based irrigation advice using Artificial Intelligence and Machine Learning.
 
-Installation
-Clone the repository:
-git clone https://github.com/LAX287/AgriSense-AI.git
+## 🚀 Features
 
-Navigate to the project folder:
-cd AgriSense-AI
+### 🌱 Crop Disease Detection
 
-Install dependencies:
-pip install -r requirements.txt
+* Detects diseases from crop leaf images using a trained TensorFlow deep learning model.
+* Provides instant recommendations for disease management.
 
-Running the Application
-# 🌾 AgriSenseAI – Smart AI-Powered Farming Assistant
+### 🌾 Fertilizer Recommendation System
 
-## Overview
+* Analyzes Nitrogen (N), Phosphorus (P), and Potassium (K) values.
+* Suggests appropriate fertilizers based on nutrient deficiencies.
 
-AgriSenseAI is an Artificial Intelligence-powered agriculture assistant designed to help farmers identify crop diseases and receive intelligent farming recommendations. The system uses deep learning and AI models to analyze crop images and provide actionable insights for better crop management.
+### 🌦 Weather & Irrigation Advisor
 
-## Features
+* Retrieves real-time weather information using the OpenWeatherMap API.
+* Provides irrigation recommendations based on humidity and temperature.
 
-* 🌿 Crop Disease Detection using AI
-* 📷 Image-based Plant Health Analysis
-* 🤖 AI-powered Farming Recommendations
-* 🌐 User-Friendly Interface
-* 📱 Mobile-Friendly Design
-* 🌍 Multilingual Support
-* 📊 Smart Agricultural Insights
+### 📄 PDF Report Generator
 
-## Problem Statement
+* Generates downloadable farmer reports containing:
 
-Farmers often face challenges in identifying crop diseases at an early stage, leading to reduced productivity and financial losses. AgriSenseAI aims to provide a fast, accessible, and intelligent solution for disease detection and crop management.
+  * Disease diagnosis
+  * Recommendations
+  * Date and time of analysis
 
-## Technology Stack
+### 🔐 User Authentication
 
-### Frontend
+* Secure login system for farmers, students, and administrators.
 
-* Gradio
+### 🎤 Voice Assistant (Upcoming)
 
-### Backend
+* Speech-based interaction for easier farmer accessibility.
+
+---
+
+## 🛠 Technologies Used
 
 * Python
-
-### Artificial Intelligence
-
-* TensorFlow / Keras
-* Deep Learning Models
-* OpenRouter API
-* GPT-based AI Models
-
-### Libraries Used
-
+* TensorFlow
 * NumPy
 * Pillow
-* Matplotlib
-* TensorFlow
 * Gradio
+* OpenWeatherMap API
+* ReportLab
+* SpeechRecognition
+* PyAudio
+* pyttsx3
 
-## Project Structure
+---
 
+## 📂 Project Structure
+
+```text
 AgriSenseAI/
 │
 ├── app.py
-├── train_model.py
+├── fertilizer.py
+├── irrigation.py
+├── report_generator.py
+├── voice_assistant.py
 ├── requirements.txt
+├── .gitignore
+│
 ├── model/
 │   └── crop_disease_model.h5
-├── images/
+│
 └── README.md
+```
 
-## Installation
+---
 
-1. Clone the repository:
+## ⚙ Installation
 
-git clone https://github.com/LAX287/AgriSense-AI.git
+Clone the repository:
 
-2. Navigate to the project folder:
+```bash
+git clone <repository-url>
+cd AgriSenseAI
+```
 
-cd AgriSense-AI
+Install dependencies:
 
-3. Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
-## Running the Application
+Run the application:
 
+```bash
 python app.py
+```
 
-The application will launch locally and can be accessed through the browser.
+Open:
 
-Future Enhancements
-Weather-based crop recommendations
-Real-time market price analysis
-Fertilizer recommendation system
-Voice assistant for farmers
-Regional language support
-Author
-Laxmi Spandana Bolukonda
+```text
+http://127.0.0.1:7860
+```
 
-Acknowledgements
-Special thanks to the organizers, mentors, and the Build With AI initiative for encouraging innovation in Artificial Intelligence and Agriculture.
-## Future Enhancements
+---
 
-* Weather-based crop recommendations
-* Real-time market price analysis
-* Fertilizer recommendation system
-* Voice assistant for farmers
-* Regional language support
+## 🎯 Applications
 
-## Author
+* Smart Farming
+* Precision Agriculture
+* Crop Health Monitoring
+* Agricultural Education
+* Farmer Decision Support Systems
 
-Laxmi Spandana Bolukonda
+---
 
-## Acknowledgements
+## 🔮 Future Enhancements
 
-Special thanks to the organizers, mentors, and the Build With AI initiative for encouraging innovation in Artificial Intelligence and Agriculture.
+* AI Agriculture Chatbot
+* Voice Assistant in Telugu and Hindi
+* Crop Yield Prediction
+* Market Price Forecasting
+* Government Scheme Recommendation
+* Satellite-Based Crop Monitoring
 
-## License
+---
 
-This project is developed for educational and innovation purposes.
+## 👩‍💻 Developer
+
+**Laxmi Spandana Bolukonda**
+
+Electronics and Communication Engineering Student
+
+Passionate about Artificial Intelligence, Machine Learning, and Smart Agriculture Solutions.
+
+---
+
+## 📜 License
+
+This project is developed for educational, research, and innovation purposes.
+on purposes.
 
